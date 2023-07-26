@@ -1,0 +1,400 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  background:lightblue;
+  height:100vh;
+  width:100%;
+  justify-content: center;
+  
+}
+header {
+    display: block;
+}
+
+ nav ul li #check{
+    display: none;
+    padding: 50px;
+    color:#777;
+   }
+   nav ul li i{
+    color:#777;
+   }
+   @media (max-width:952px) { 
+       label.logo{
+           font-size: 30px;
+           padding-left: 50px;
+       }
+       nav ul li a{
+           font-size: 16px;
+       }
+       
+   }
+   
+   @media (max-width: 1000px) {
+       .checkbtn{
+           display: block;
+       }
+       ul{
+           position: fixed;
+           width:100%;
+           height:100vh;
+           background:lightblue;
+           top: 80px;
+           left: -100%;
+           text-align:center;
+           transition:  all .5s;
+       }
+       
+       nav ul li{
+           display: block;
+           margin:50px 0;
+           line-height: 30px;
+       }
+       nav ul  li a{
+           font-size: 28px;
+       }
+       a:hover, a.active{
+           background:none;
+           color: #656565;
+   
+       }
+       #check:checked ~ ul{
+           left:0;
+   
+       }
+       
+   }
+nav {
+background-color: lightblue;
+height: 50px;
+box-shadow: rgb(101, 101, 101) 0px 5px 8px 3px;
+position: sticky;
+}
+  
+nav ul {
+    float: right;
+    margin: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+nav ul li a {
+    color: rgb(101, 101, 101);
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+label.logo {
+    color: rgb(119, 119, 119);
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    margin: 30px;
+    padding: 0px;
+}
+
+a.active, a:hover{
+    transform:translate(375px);
+    transition: 120ms;
+    color: #5555;
+   
+}
+label {
+    cursor: default;
+}
+section {
+    background-image: url(./bg5.jpg);
+    background-size: 100% 950px;
+    background-repeat: no-repeat;
+}
+
+section .home h1 {
+    text-align: center;
+    position: relative;
+    left: 1%;
+    font-size: 2em;
+    padding-top: 250px;
+    color: white;
+    font-weight: bold;
+}
+
+section .home button {
+    position: relative;
+    left: 40em;
+    top: 100%;
+    background-color: lightblue;
+    width: 17em;
+    height: 3em;
+    color: rgb(101, 101, 101);
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 120px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+section .home ul{
+    display: flex;
+    margin-top:140px;
+}
+
+section .home input[type="text"] {
+    width: 55em;
+    height: 3em;
+    position: relative;
+    left: 20em;
+    top: -100%;
+    padding-top: 1%;
+    padding-left: 3%;
+    font-size: 15px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 120px;
+    outline: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+section .home i{
+    color: #777;
+    margin-left:30px;
+    padding-top: 20px;
+}
+section .home h2 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    font-family: Poppins, sans-serif;
+}
+section .dests {
+    width: 25%;
+    height: 60%;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    position: relative;
+    top: 20%;
+    display: inline-block;
+    left: 7%;
+    border-radius: 5px;
+    margin: 8% 20px 20px;
+}
+section .dests img {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 2%;
+    border-radius: 3px;
+}
+
+section #b1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid rgb(198, 198, 198);
+}
+
+section #b2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+}
+
+section .blog p {
+    background-color: white;
+    text-align: left;
+    font-size: 15px;
+    height: 80%;
+    width: 40%;
+    margin-top: 5%;
+    padding: 30px;
+}
+
+section .blog h2 {
+    color: #777;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+section .blog {
+    position: relative;
+    top: 100%;
+}
+
+section .blog h1{
+font-size: 70px;
+color: #777;
+font-family: 'Poppins',sans-serif ;
+text-align:center;
+margin-bottom: 50px;
+}
+section .blog h5 {
+    color: rgb(119, 119, 119);
+    font-family: Poppins, sans-serif;
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+section .blog img {
+    float: right;
+    box-shadow: 0px 2px 2px 2px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+section .headings h2 {
+    font-size: 30px;
+    color: rgb(119, 119, 119);
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+section .headings h3 {
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+section #recommendations {
+    width: 100%;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    background-color: white;
+}
+
+section .recommendations p {
+    text-align: left;
+    font-size: 15px;
+    height: 80%;
+    width: 80%;
+    margin-top: 5%;
+    padding: 30px;
+}
+section .recommendations h1{
+    font-size: 80px;
+    color: #777;
+    font-family: 'Poppins',sans-serif ;
+    text-align:center;
+    margin-bottom:80px;
+    font-size:50px;
+    }
+        
+section .recommendations h2{
+font-size: 65px;
+color: #777;
+font-family: 'Poppins',sans-serif ;
+text-align:center;
+margin-top:80px;
+padding: 20px;
+}
+ 
+section .recommendations img {
+    width: 250px;
+    height: 300px;
+    float: left;
+    border-radius: 50%;
+    padding: 20px;
+}
+section .contact h4 {
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    margin-left: -35%;
+    margin-top: 10%;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+section .contact textarea {
+    width: 60%;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20%;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+section .contact input[type="button"] {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    background-color: rgb(119, 119, 119);
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 17em;
+    height: 3em;
+    outline: none;
+    border-radius: 80px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+section .footer {
+    background-color: rgb(119, 119, 119);
+    color: white;
+    position: relative;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+section .footer a{
+    margin:10px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+@media only screen and (max-width: 800px){
+section {
+    height: 90vh;
+    width: 80%;
+    align-items: center;
+    position: relative;
+    left: 5%;
+    top: 2%;
+    right: 10%;
+    bottom: 2%;
+}
+}        
+               
+
+        

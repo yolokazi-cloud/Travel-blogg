@@ -1,0 +1,387 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins',sans-serif  ;   font-size: 15px;
+}
+body{
+  background:lightblue;
+  height:100vh;
+  width:100%;
+ 
+}
+ nav ul li #check{
+    display: none;
+    padding: 50px;
+    color:#777;
+   }
+   nav ul li i{
+    color:#777;
+   }
+  
+nav{
+    background-color: lightblue;
+    height: 50px;
+    box-shadow: 0 5px 8px 3px #656565;
+    position:sticky;
+}
+nav ul{
+    float:right;
+    margin:20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+nav ul li a{
+    color: #656565;
+    font-size: 15px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 1000px;
+    
+}
+label.logo{
+    margin:30px;
+    color: #777;
+    font-size: 20px;
+    line-height: 60px;
+    padding: 0 0px;
+    font-weight: bold;
+}
+
+a.active, a:hover{
+    transform:translate(375px);
+    transition: 120ms;
+    color: #5555;
+   
+}
+
+section 
+{
+   background-image: url(../images//bg5.jpg);
+   background-repeat: no-repeat;
+   background-size:  100% 950px;
+   
+}
+section .home h1{
+    text-align: center;
+    position:relative;
+    left: 1%;
+    font-size: 2em;
+    padding-top: 250px;
+    color:white;
+    font-weight: bold;
+}
+
+section .home button{
+    position: relative;
+    left:40em;
+    top:100%;
+   
+    background-color: lightblue;
+    border-radius: 120px;
+    width:17em;
+    height:3em;
+    color: #656565;
+    border:none;
+    opacity: 0.7px;
+    align-content: center;
+     justify-content: center;
+     text-align: center;
+}
+
+section .home ul{
+    display: flex;
+    margin-top:140px;
+}
+
+section .home input[type=text]{
+     border-radius: 120px;
+     width: 55em;
+     height: 3em;
+     outline:none;
+     border:none;
+     position: relative;
+     left:20em;
+     top:-100%;
+     padding-top:1%;
+     padding-left: 3%;
+     font-size: 15px;
+     align-content: center;
+     justify-content: center;
+     text-align: center;
+   
+}
+
+section .home i{
+    color: #777;
+    position: relative;
+    left:10%;
+    top:10%;
+    
+}
+section .home h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    font-family: 'Poppins',sans-serif ;
+   
+}
+section .dests img{
+    width:100%;
+    height:80%;
+    border-radius:3px;
+    margin-bottom: 2%;
+}
+section .dests {
+    width:25%;
+    height:60%;
+    border-radius:5px;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    position:relative;
+    top:20%;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 5%;
+    left:7%;
+
+}
+
+section .blog h2{ 
+    color: rgb(239, 238, 238);
+    font-family: 'Poppins',sans-serif ;
+    text-align:center;
+    position: relative;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+section .blog {
+    position: relative;
+    top:100%;
+}
+section .blog h5{
+    
+    color: #777;
+    font-family: 'Poppins',sans-serif ;
+    text-align:center;
+    position:relative;
+    text-align:center;
+    margin-top:5%;
+    font-size: 40px;
+    }
+
+    section .blog p{
+    background-color: white;
+    padding: 30px;
+    text-align:left;
+    font-size: 15px;
+    height: 80%;
+    width: 40%;
+    margin-top: 5%;
+    }
+    section .blog img{
+        float:right; 
+        border-radius: 50%;
+        box-shadow: 0px 2px 2px 2px ; 
+        width:250px;
+        height:250px;
+        border-color: 1px solid skyblue;
+        
+    }
+    section  #b1{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        border-bottom: 1px solid #c6c6c6;
+    }
+    section #b2{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-content: center;
+    }
+   
+    
+section .recommendations h1{
+    font-size: 40px;
+    color: #777;
+    font-family: 'Poppins',sans-serif ;
+    text-align:center;
+    margin-bottom:40px;
+    font-size:25px;
+    }
+        
+section .recommendations h2{
+    font-size: 30px;
+    color: #777;
+    font-family: 'Poppins',sans-serif ;
+    text-align:center;
+    margin-top:40px;
+    padding: 10px;
+    
+    }
+ section .contact h4{
+    color: #777;
+    margin-top:40px;
+    margin-left:80px;
+    font-size: 25px;
+    font-weight: bolder;
+        
+    }
+            
+section .recommendations p{
+    padding: 30px;
+    text-align:left;
+    font-size: 15px;
+    height: 80%;
+    width: 80%;
+    margin-top: 5%;
+}
+section #recommendations{
+    width: 100%;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    background-color: white;
+}
+section .recommendations img{
+    border-radius: 50%;
+    width:250px;
+    height:300px;
+    border-color: 1px solid skyblue;
+    float:left;
+    padding: 20px;
+}
+
+    section .recommendation h1{
+        font-size: 50px;
+        color: #777;
+        font-family: 'Poppins',sans-serif ;
+        text-align:center;
+        position: relative;
+  
+        }
+        section .recommendations h2{
+        font-size: 25px;
+        color: #777;
+        font-family: 'Poppins',sans-serif ;
+        text-align:center;
+        position: inherit;
+        padding: 10px;
+            
+     }
+     section .headings h2{
+        font-size: 30px;
+        color: #777;
+        font-family: 'Poppins',sans-serif ;
+        text-align:center;
+        margin-top: 5%;
+     }
+     section .headings h3{
+        font-size: 20px;
+        color: #777;
+        font-family: 'Poppins',sans-serif ;
+        text-align:center;
+     }
+     section .contact h4{
+        font-size:20px;
+        color: #777;
+        font-family: 'Poppins',sans-serif ;
+        text-align:center;
+        margin-left: -35%;
+        margin-top: 10%;
+        padding-bottom: 5px;
+     }
+     section .contact textarea{
+        width:60%;
+        margin-top: 10px;
+        border:5px solid white;
+        font-size: 20px; 
+        border-radius: 10px; 
+        padding: 5px;
+        border:none;
+        outline: none;
+        margin-left: 20%;
+        background-color: whitesmoke;
+        color: black;
+
+     }
+     section .contact input[type="button"]{
+        font-family: 'Poppins',sans-serif;
+        outline: none;
+        font-size: 20px;
+        background-color:#777 ;
+        color:lightblue ; 
+        border-radius: 80px;
+        border:none; 
+        text-align: center; 
+        position: relative;
+        margin-left: 30%;
+        width:17em;
+        height:3em;
+        
+       
+     }
+     section .footer{
+        background-color: #777;
+        color:white;
+        position: relative;
+        text-align: center;
+        margin: 30px;
+        padding: 20px;
+     }
+     @media only screen and (max-width:400px){
+        section{
+            height:90vh;
+            width:120%;
+            align-items: center;
+            position: relative;
+            left:0%;
+            top:0%;
+            right:0%;
+            bottom:0%;
+            
+        }
+        
+    }
+    @media only screen and (max-width:800px){
+        section{
+            height:90vh;
+            width:80%;
+            align-items: center;
+            position: relative;
+            left:5%;
+            top:2%;
+            right:10%;
+            bottom:2%;
+            
+        }
+        
+    }
+    @media only screen and (max-width:300px){
+        section{
+            height:90vh;
+            width:100%;
+            align-items: center;
+            position: relative;
+            left:0%;
+            top:0%;
+            right:0%;
+            bottom:0%;
+            
+        }
+        
+    }
+    
+        
+        
